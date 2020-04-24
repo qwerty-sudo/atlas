@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: atlas-postprocess-env
-  namespace: atlas
+  namespace: atlas-updated
 data:
   COLLECTION_NAME: AtlasAgentsMsg
   MONGODB_HOST: atlas-mongodb
