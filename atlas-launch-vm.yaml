@@ -6,7 +6,7 @@ metadata:
     io.kompose.service: atlas-launchvm
     app.name: atlas-launchvm
   name: atlas-launchvm
-  namespace: atlas
+  namespace: atlas-updated
 spec:
   replicas: 1
   template:
