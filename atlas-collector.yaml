@@ -5,7 +5,7 @@ metadata:
   labels:
     app.name: atlas-collector
   name: atlas-collector
-  namespace: atlas
+  namespace: atlas-updated
 spec:
   replicas: 2
   template:
