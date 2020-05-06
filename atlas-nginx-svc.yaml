@@ -7,7 +7,7 @@ metadata:
    labels:
      io.kompose.service: atlas-nginx
    name: atlas-nginx
-   namespace: atlas-updated
+   namespace: atlas
 spec:
   ports:
   - name: "80"

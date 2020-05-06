@@ -5,7 +5,7 @@ metadata:
   labels:
     app.name: atlas-collector
   name: atlas-collector
-  namespace: atlas-updated
+  namespace: atlas
 spec:
   replicas: 2
   template:
@@ -24,7 +24,7 @@ spec:
         - name: MONGO_USER
           value: atlascollectoruser
         - name: MONGO_PASSWORD
-          value: YXRsYXNjb2xsZWN0b3J1c2VyCg==
+          value: "YXRsYXNjb2xsZWN0b3J1c2VyCg=="
         - name: MONGO_DATABASE
           value: atlas
         - name: POSTGRES_PORT
@@ -34,7 +34,7 @@ spec:
         - name: RABBIT_HOST
           value: atlas-rabbitmq.atlas.svc.cluster.local
         - name: RABBIT_PASS
-          value: DPuzU7l75V
+          value: iBdIS3I3c5
         - name: RABBIT_PORT
           value: "5672"
         - name: RABBIT_PORT_SSL

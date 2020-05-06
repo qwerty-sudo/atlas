@@ -6,7 +6,7 @@ metadata:
   labels:
     io.kompose.service: atlas-launchvm
   name: atlas-launchvm
-  namespace: atlas-updated
+  namespace: atlas
 spec:
   ports:
   - name: "7070"

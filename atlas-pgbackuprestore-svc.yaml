@@ -5,7 +5,7 @@ metadata:
   labels:
     io.kompose.service: atlas-pgbackuprestore
   name: atlas-pgbackuprestore
-  namespace: atlas-updated
+  namespace: atlas
 spec:
   type: NodePort 
   ports:
